@@ -1,3 +1,3 @@
 # Description #
 
-Scripts linked to the data science blog posts at **[DataCATz](datacatz.wordpress.com)**
+Scripts linked to the data science blog posts at **[DataCATz](http://datacatz.wordpress.com/)**
