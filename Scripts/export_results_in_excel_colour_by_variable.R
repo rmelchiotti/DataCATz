@@ -3,7 +3,7 @@ library(reshape2)
 load("/media/development/DataCATz/Datasets/blog_RM2_data.RData")
 head(limma_results_multiple_comparisons)
 
-# Identifing probes which are significant in at least one comparison (adjusted p-value<0.05)
+# Identifing probes which are significant in at least one comparison (adjusted p-value<0.001)
 significant<-dcast(subset(limma_results_multiple_comparisons,adj.P.Val<0.001),probe~.,length,value.var="comparison")
 colnames(significant)<-c("probe","num_significant_comparisons")
 head(significant)
